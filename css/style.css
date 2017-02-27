@@ -82,6 +82,11 @@ nav li a:hover {
   background-color: red;
 }
 
+.category-container {
+  border-bottom: 0.1vw solid black;
+  margin-bottom: 2%;
+}
+
 .news-box-left, .news-box-center, .news-box-right {
   width: 30%;
   display: inline-block;
