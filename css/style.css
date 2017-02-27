@@ -104,6 +104,11 @@ nav li a:hover {
 .news-box {
   background-color: #F2F2F2;
   margin-bottom: 15%;
+    position: relative;
+  
+  border: 1px solid #0000;
+  margin: 2%;
+  overflow: hidden;
 }
 
 .news-box h3, .news-box p {
@@ -119,8 +124,17 @@ nav li a:hover {
   margin: 0;
   max-width: 100%;
   max-height: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .news-box:hover {
   opacity: 0.8;
+}
+.news-box:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
