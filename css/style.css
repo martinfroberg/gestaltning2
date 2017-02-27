@@ -76,6 +76,11 @@ nav li a:hover {
 
 }
 
+.ym-col1 button {
+  width: 100%;
+  height: 3vw;
+}
+
 .ym-col2 {
   width: 25% !important;
   height: 25vw;
@@ -98,6 +103,7 @@ nav li a:hover {
 
 .news-box {
   background-color: #F2F2F2;
+  margin-bottom: 15%;
 }
 
 .news-box h3, .news-box p {
