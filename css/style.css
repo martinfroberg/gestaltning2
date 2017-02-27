@@ -47,6 +47,7 @@ nav li a:hover {
 
 .marquee {
   overflow: hidden;
+  border-right: 0.1vw solid black;
 }
 
 .marquee-title, .marquee {
