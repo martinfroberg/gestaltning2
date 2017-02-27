@@ -1,7 +1,11 @@
 body, html {
+ height: 100%
 }
 
 .page-container {
+  height:100%;
+  
+   
 }
 
 .title-container h1 {
@@ -15,6 +19,7 @@ body, html {
 nav {
   border-bottom: 0.1vw solid black;
   padding: 0.25vw;
+  margin-top:1%;
   margin-bottom: 1%;
 }
 
@@ -68,6 +73,7 @@ nav li a:hover {
 .ym-column {
   margin: 0 auto;
   max-width: 65%;
+ 
 }
 
 .ym-col1 {
@@ -133,8 +139,18 @@ nav li a:hover {
 .news-box:hover {
   opacity: 0.8;
 }
+
 .news-box:hover img {
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
+
+
+footer{
+  width:100%;
+  height: 10%;
+  background-color:#F2F2F2;
+  text-align: center;
+}
+
