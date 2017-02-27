@@ -95,11 +95,14 @@ nav li a:hover {
 .category-container {
   border-bottom: 0.1vw solid black;
   margin-bottom: 2%;
+  max-height: 25em;
 }
 
 .news-box-left, .news-box-center, .news-box-right {
   width: 30%;
   display: inline-block;
+
+
 }
 
 .news-box-left, .news-box-center {
@@ -107,6 +110,7 @@ nav li a:hover {
 }
 
 .news-box {
+  display: inline-block;
   background-color: #F2F2F2;
   margin-bottom: 15%;
     position: relative;
@@ -114,6 +118,10 @@ nav li a:hover {
   border: 1px solid #0000;
   margin: 2%;
   overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 25em;
+  line-height: 1.8em;
 }
 
 .news-box h3, .news-box p {
@@ -122,6 +130,8 @@ nav li a:hover {
 
 .news-box p {
   padding-bottom: 20%;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .news-box img {
