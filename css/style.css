@@ -38,29 +38,29 @@ nav li a:hover {
   background-color: lightgray;
 }
 
-.marquee-title {
+.trending-news-title {
   max-width: 20%;
   float: left;
   border-right: 0.1vw solid black;
   padding-right: 0.2vw;
 }
 
-.marquee {
+.trending-news-marquee {
   overflow: hidden;
   border-right: 0.1vw solid black;
 }
 
-.marquee-title, .marquee {
+.trending-news-title, .trending-news-marquee {
   margin-bottom: 1%;
 }
 
-.marquee ul, .marquee li {
+.trending-news-marquee ul, .trending-news-marquee li {
   display: inline-block;
   padding: 0;
   margin: 0;
 }
 
-.marquee li:after {
+.trending-news-marquee li:after {
   content: " | ";
 }
 
@@ -84,7 +84,6 @@ nav li a:hover {
 .ym-col2 {
   width: 25% !important;
   height: 25vw;
-  background-color: red;
 }
 
 .category-container {
@@ -123,4 +122,14 @@ nav li a:hover {
 
 .news-box:hover {
   opacity: 0.8;
+}
+
+.latest-news-container {
+  margin-top: 9.04%;
+}
+
+.latest-news-marquee {
+  height: 30vw;
+  border: 0.1vw solid black;
+  overflow: hidden;
 }
