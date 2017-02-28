@@ -5,7 +5,7 @@ function news_entry($connection, $views, $category, $author, $text, $img_path, $
 mysqli_query($connection,
   'INSERT INTO articles
   (views, author, category, text)
-  VALUES ("' . $views . '", "' . $category . '", "' . $author . '","' . $text . '")');
+  VALUES ("' . $views . '", "' . $author . '", "' . $category . '","' . $text . '")');
 
 //Get article id
 $last_id = mysqli_insert_id($connection);
