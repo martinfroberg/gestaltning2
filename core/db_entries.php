@@ -67,7 +67,5 @@ function insertEntries($connection){
   "https://i.guim.co.uk/img/media/fa2c5cd862298bede92c1d68857d45ca60a096ba/0_292_4386_2632/master/4386.jpg?w=620&q=20&auto=format&usm=12&fit=max&dpr=2&s=225aa60b65fdc213c06303b3edc55638", //News img url/path
   "City watchdog sounds alarm bells over hard Brexit", //News headline
   "FCA chief says sudden EU exit would create myriad headaches, not least making it harder to keep an eye on banks.");
-
-  https://i.guim.co.uk/img/media/fa2c5cd862298bede92c1d68857d45ca60a096ba/0_292_4386_2632/master/4386.jpg?w=620&q=20&auto=format&usm=12&fit=max&dpr=2&s=225aa60b65fdc213c06303b3edc55638
-}
-?>
+  
+} ?>
