@@ -11,7 +11,8 @@
       ORDER BY articles.creation_time ASC
       LIMIT 10')) {
         while($row = $result->fetch_assoc()){
-          echo '<li>' . $row['headline'] . '</li><br>';
+          echo '<li class="latest-news-li"><img src="' . $row['img_path'] . '" alt="">
+          <p>' . $row['headline'] .'</p></li><br>';
         }
       } ?>
     </ul>
