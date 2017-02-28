@@ -106,14 +106,20 @@ nav li a:hover {
   display: inline-block;
   background-color: #F2F2F2;
   margin-bottom: 15%;
-  overflow: hidden;
   text-overflow: ellipsis;
+  overflow: hidden;
   max-height: 25em;
+  min-height: 25em;
   line-height: 1.8em;
+  /*max-width: 100%;
+  white-space: nowrap;*/
+
 }
 
 .news-box h3, .news-box p {
   padding: 0 3% 0 3%;
+
+
 }
 
 .news-box p {
