@@ -110,12 +110,12 @@ nav li a:hover {
 
 .news-box h3, .news-box p {
   padding: 0 3% 0 3%;
+  text-align: left;
 }
 
 .news-box h3 {
   font-size: 0.90rem;
   margin-bottom: 1vh;
-  text-align: center;
   text-decoration: underline;
 }
 
@@ -124,7 +124,6 @@ nav li a:hover {
   text-overflow: ellipsis;
   overflow: hidden;
   font-size: 0.90rem;
-  text-align: left;
 }
 
 .news-box img {
