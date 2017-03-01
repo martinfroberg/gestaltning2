@@ -116,7 +116,6 @@ nav li a:hover {
 }
 
 .news-box {
-  background-color: white;
   display: inline-block;
   margin-bottom: 15%;
   height: 40vh;
@@ -137,7 +136,7 @@ nav li a:hover {
 .news-box p {
   font-size: 0.90rem;
   line-height: 1rem;
-  max-height: 6rem;
+  max-height: 6.5em;
   overflow: hidden;
 }
 
