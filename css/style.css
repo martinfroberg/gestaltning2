@@ -36,7 +36,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #F5F5F5;
+  text-decoration: underline;
 }
 
 .trending-news-title {
@@ -204,7 +204,7 @@ footer a {
   color: inherit;
 }
 footer a:hover{
-  border-bottom: solid black 0.1em;
+  text-decoration: underline;
 }
 
 footer small {
