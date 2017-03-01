@@ -1,5 +1,5 @@
 $('.latest-news-marquee').marquee({
-  delayBeforeStart: -9500,
+  delayBeforeStart: -20000,
   direction: 'up',
   duplicated: true,
   duration: 20000,
