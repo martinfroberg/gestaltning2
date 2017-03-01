@@ -5,12 +5,12 @@ require_once 'database/lazydbentry.php';
 //EXAMPLE
 /*news_entry($connection, //Databas connection
 rand(0,10000), //Views for this article (för "trending" saker att funka)
-"technology", //News category
+"technology & science", //News category
 "Unknown",  //Author
 "", //Article text
-"http://images.entertainment.ie/images_content/rectangle/620x372/E-T.jpg", //News img url/path
-"Very good alien", //News headline
-"Look at this crazy motherfucker."); //News summary */
+"", //News img url/path
+"", //News headline
+""); //News summary*/
 
 function insertEntries($connection){
 
@@ -331,10 +331,82 @@ function insertEntries($connection){
 
   news_entry($connection, //Databas connection
   rand(0,10000), //Views for this article (för "trending" saker att funka)
+  "technology & science", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "http://farbtoner.com/images/OKI-C810-C830-Chip.jpg", //News img url/path
+  "More teenagers choose to biohack themselves!", //News headline
+  "Good or bad? What are the long term consquences of biohacking?"); //News summary
+
+  news_entry($connection, //Databas connection
+  10001, //Views for this article (för "trending" saker att funka)
   "economics", //News category
   "Unknown",  //Author
   "", //Article text
-  "http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2016/12/13/104164181-RTX2U51H.160x105.jpg?v=1487708913", //News img url/path
-  "Why the Fed's March meeting could be the most important of the year", //News headline
-  "Fed officials want investors to believe that every meeting is live, with the possibility always there that the central bank will hike."); //News summary
+  "http://ichef.bbci.co.uk/news/660/media/images/76104000/jpg/_76104343_76092398.jpg", //News img url/path
+  "Chippit stock down 15%!", //News headline
+  "Chippit stocks plummeting after recent biohacking bugs have come to light!"); //News summary
+
+  news_entry($connection, //Databas connection
+  10002, //Views for this article (för "trending" saker att funka)
+  "sport", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "https://img.scoop.it/Ykosvc63maulLB0NWspAtjl72eJkfbmt4t8yenImKBVvK0kTmF0xjctABnaLJIm9", //News img url/path
+  "Biohacking in the Olympics: Should it be illegal?", //News headline
+  "Biohacking implants are ruining sports: According to OS coordinator Steve James."); //News summary
+
+  news_entry($connection, //Databas connection
+  10003, //Views for this article (för "trending" saker att funka)
+  "technology & science", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "http://careers2030.cst.org/app/uploads/2014/03/Robot-Counsellor-900x540.jpg", //News img url/path
+  "Ethics of biohacking?", //News headline
+  "Where does it end. Are we even humans after a point? Chippit who does everything in your life for you, where does it end?"); //News summary
+
+  news_entry($connection, //Databas connection
+  10004, //Views for this article (för "trending" saker att funka)
+  "technology & science", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "https://blogs-images.forbes.com/robertwood/files/2016/02/Trump1.jpg", //News img url/path
+  "Chippit most be stopped; Trump says after recent pressconference.", //News headline
+  "Recent hazardous chippit bug and exploits have made a powerful enemy of the president for Chippit INC"); //News summary
+
+  news_entry($connection, //Databas connection
+  rand(0,10000), //Views for this article (för "trending" saker att funka)
+  "technology & science", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "http://www.kconnect.eu/sites/default/files/styles/top_teaser/public/images/health_on_the_net.jpg?itok=xdIRhd4o", //News img url/path
+  "Chippit health tracker: Useless?", //News headline
+  "Multiple reports from users of the Chippit: Health Tracker has deemed it useless. Some reports of it actually making your body less healthy by giving inccorect data."); //News summary
+
+  news_entry($connection, //Databas connection
+  rand(0,10000), //Views for this article (för "trending" saker att funka)
+  "technology & science", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "https://www.drugs.com/images/pills/fio/SHR00340.JPG", //News img url/path
+  "Chippit adderall effect malfunction!", //News headline
+  "2 dead from drug overdose, blaming malfunction of Chippit: Adderal addon! What is actually supposed to make you more focused in your daily life can actually kill you!"); //News summary
+
+  news_entry($connection, //Databas connection
+  rand(0,10000), //Views for this article (för "trending" saker att funka)
+  "technology & science", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "http://www.hearthealthonline.org/wp-content/uploads/2014/11/Normal-Heart-Rate-300x210.png", //News img url/path
+  "Chippit fake disease scare!", //News headline
+  "Chippit's addon to prevent disease gives a older woman an incorrect diagnosis of alzheimer's disease!"); //News summary
+
+  news_entry($connection, //Databas connection
+  rand(0,10000), //Views for this article (för "trending" saker att funka)
+  "technology & science", //News category
+  "Unknown",  //Author
+  "", //Article text
+  "http://www.redcandy.co.uk/media/catalog/product/cache/1/thumbnail/600x/9df78eab33525d08d6e5fb8d27136e95/t/h/thomas-kent-puffin-alarm-clock-gun-metal-1.jpg", //News img url/path
+  "Chippit alarm clock not functioning?", //News headline
+  "After recent Chippit update the alarm clock has shown to go off at random times, and sometimes not at all after choosing a time."); //News summary
 } ?>
