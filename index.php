@@ -17,7 +17,15 @@ $connection = db_connect(); ?>
     <div class="ym-column">
       <?php include_once 'views/trending-news.php'; ?>
       <div class="ym-col1">
-        <?php include_once 'views/category-news.php'; ?>
+        <?php
+        include_once 'views/category-news/topweekly.php';
+        include_once 'views/category-news/politics.php';
+        include_once 'views/category-news/international.php';
+        include_once 'views/category-news/economics.php';
+        include_once 'views/category-news/tech&sci.php';
+        include_once 'views/category-news/sport.php';
+        include_once 'views/category-news/entertainment.php';
+         ?>
       </div>
       <div class="ym-col2">
         <?php include_once 'views/latest-news.php'; ?>

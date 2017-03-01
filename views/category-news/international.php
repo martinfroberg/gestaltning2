@@ -1,5 +1,5 @@
 <div class="category-container">
-  <h1>Top weekly topics</h1>
+  <h1>International</h1>
 </div>
 
 <?php
@@ -9,7 +9,7 @@ if($result = mysqli_query($connection,
 'SELECT news.article_id, news.img_path, news.headline, news.summary
 FROM news
 INNER JOIN articles
-ON articles.id=news.article_id
+ON articles.category LIKE "%international%" and articles.id=news.article_id
 ORDER BY articles.views DESC
 LIMIT 6')) {
   while($row = $result->fetch_assoc()){
@@ -46,6 +46,7 @@ LIMIT 6')) {
     }
     $counter++;
   }
+} else {
+  echo '<h1>DOESNT WORK</h1>';
 } ?>
-
 <button type="button" name="button">Read more..</button>
