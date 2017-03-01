@@ -152,11 +152,11 @@ nav li a:hover {
 }
 
 .latest-news-container {
-  margin-top: 7.4%;
+  margin-top: 7%;
 }
 
 .latest-news-marquee {
-  height: 30vw;
+  height: 75vh;
   border: 0.1vw solid black;
   overflow: hidden;
 }
@@ -183,7 +183,7 @@ nav li a:hover {
 
 footer{
   margin-top: 10%;
-  min-height: 15vh;
+  min-height:15vh;
   border-top: 0.1vh solid black;
   width:100%;
   position: relative;
