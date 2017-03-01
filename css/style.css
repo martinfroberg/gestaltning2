@@ -77,18 +77,18 @@ nav li a:hover {
 }
 
 .ym-col1 button {
-  background-color: #F2F2F2;
+  background-color: white;
   width: 100%;
   height: 4vh;
   margin-bottom: 7vh;
   border-style: none;
-  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.2);
-  color: darkgray;
+  color: black;
   font-style: italic;
+  border: 0.15vw solid #f2f2f2;
 }
 
 .ym-col1 button:hover {
-  box-shadow: 0.2rem 0.2rem 1.7rem rgba(0,0,0,0.2);
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.2);
   border: 0.1vh solid lightgray;
 }
 
