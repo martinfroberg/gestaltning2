@@ -36,7 +36,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: lightgray;
+  background-color: #F5F5F5;
 }
 
 .trending-news-title {
@@ -61,9 +61,9 @@ nav li a:hover {
   margin: 0;
 }
 
-.trending-news-marquee li:after {
+*.trending-news-marquee li:after {
   content: " | ";
-}
+}*
 
 
 .ym-column {
@@ -187,6 +187,9 @@ footer li {
 footer a {
   text-decoration: none;
   color: inherit;
+}
+footer a:hover{
+  border-bottom: solid black 0.1em;
 }
 
 footer small {
